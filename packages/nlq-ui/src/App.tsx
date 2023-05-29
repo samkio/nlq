@@ -125,7 +125,12 @@ function App() {
           <a href="https://www.npmjs.com/package/nlq">nlq</a> library.
         </p>
 
-        <Row>
+        <p>
+          Simply enter a question in the form of natural language and this tool
+          will generate an example SQL query that can be used to query your
+          dataset.
+        </p>
+        <Row className="mb-3">
           <Col>
             <h2>Natural Language</h2>
             <Form>
