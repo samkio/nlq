@@ -37,7 +37,10 @@ jobs:
           cache: 'npm'
       - name: Install dependencies
         run: npm install
-      - name: Build
+      - name: Build NLQ
+        run: npm run build
+        working-directory: './packages/nlq'
+      - name: Build UI
         run: npm run build
         working-directory: './packages/nlq-ui'
       - name: Setup Pages
